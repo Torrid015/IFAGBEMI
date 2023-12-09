@@ -1,0 +1,179 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F4F4F4;
+  position: fixed;
+  width: 100%;
+  box-shadow: 2px 4px 4px rgba(212, 212, 212, 1);
+  z-index: 99;
+}
+
+.logo{
+  width: 90px;
+  text-align: center;
+  margin: 5px;
+  font-size: 10px;
+  line-height: 25px;
+  border-radius: 50px;
+  border: 1px solid #359036;
+}
+
+
+.menu{
+  display: flex;
+}
+
+.menu ul{
+  display: flex;
+}
+
+.menu li{
+  margin: 5px;
+  list-style-type: none;
+  
+}
+
+ul li a{
+  color: black;
+  text-decoration-line: none;
+}
+
+.info{
+  padding-top: 90px;
+  margin: 0px 4px;
+}
+
+.info p{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.info div{
+  display: flex;
+  justify-content: center;
+}
+
+.info div a{
+  text-decoration-line: none;
+  text-align: center;
+  align-items: center;
+  width: 200px;
+  background-color: #2F8E20;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px rgba(17, 177, 32, 0.4);
+  transition: background 0.3s;
+}
+
+.service1{
+  background-image: url('/ifa1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+}
+
+.blur{
+  background-color: rgba(255, 255, 255, 0.09);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
+.outreach{
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list{
+  padding: 10px;
+}
+
+.list ul li{
+  margin: 5px;
+}
+
+.program{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.opele{
+  width: 90%;
+  margin: 10px;
+}
+
+.contact{
+ margin: 5px;
+ padding: 10px;
+  border: 1px solid #5AC758;
+}
+
+.appointment{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#contact{
+  font-weight: lighter;
+}
+
+.explain p{
+  margin: 0px 0px 10px 0px;
+  font-weight: lighter;
+  color: #5AC758;
+}
+
+form{
+  margin: 20px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+form div input,
+textarea{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+  border-color: black;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  background-color: #40993F;
+  border: none;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 4px 4px rgba(57, 62, 49, .5);
+  transition: background 0.3s;
+}
+
+button:hover,
+.msg:hover{
+  background-color: #221E1D;
+  box-shadow: 2px 4px 4px rgba(209, 208, 207, 1);
+}
